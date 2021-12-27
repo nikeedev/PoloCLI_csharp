@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "NikPoloTerminal for C#/1.0.0": {
+        "runtime": {
+          "NikPoloTerminal for C#.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NikPoloTerminal for C#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
