@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
 
 namespace polo
 {
@@ -82,7 +85,7 @@ namespace polo
             while (whileterminal) {
                 Console.WriteLine();
                 string commands;
-                Console.Write("polo - " + user + " /> ");
+                Console.Write("polo - " + user + "/> ");
                 commands = Console.ReadLine();
                 if (commands == "exit") {
                     Console.WriteLine();
