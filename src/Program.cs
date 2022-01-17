@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
@@ -85,7 +86,7 @@ namespace polo
             while (whileterminal) {
                 Console.WriteLine();
                 string commands;
-                Console.Write("polo - " + user + "/> ");
+                Console.Write($"polo - { user }/>  ");
                 commands = Console.ReadLine();
                 if (commands == "exit") {
                     Console.WriteLine();
@@ -105,14 +106,14 @@ namespace polo
                 else if (commands == "user") {
                     Console.WriteLine("Current user logged in is: " + user);
                 }
-                else if (commands == "version" || commands == "--version" || commands == "about" || commands == "-v" || commands == "--v" ||commands == "-ver") {
+                else if (commands == "version" || commands == "about") {
                     version();
                 }
                 else if (commands == "help")
                 {
                     Console.WriteLine("");
-                    Console.WriteLine("You can use Following commands: ");
-                    Console.WriteLine("version, --version, --v, -ver, -v and about: All they show current version.");
+                    Console.WriteLine("You can use following commands: ");
+                    Console.WriteLine("version and about: All they show current version.");
                     Console.WriteLine("help: Shows this page. ");
                     Console.WriteLine("user: shows current user logged in. ");
                     Console.WriteLine("color: Shows available colors you can change between. ");
@@ -146,8 +147,13 @@ namespace polo
                 else if (commands == "cls") {
                     Console.Clear();
                 }
-                else if (commands == "") {
+                else if (commands == "" || commands == " ") {
                     continue;
+                } 
+                else {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("This command or value is invalid. You can list all available commands using 'help' command.");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
             }
         }
