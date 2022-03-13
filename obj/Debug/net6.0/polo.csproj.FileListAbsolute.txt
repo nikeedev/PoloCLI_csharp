@@ -1,0 +1,15 @@
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\bin\Debug\net6.0\polo.exe
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\bin\Debug\net6.0\polo.deps.json
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\bin\Debug\net6.0\polo.runtimeconfig.json
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\bin\Debug\net6.0\polo.dll
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\bin\Debug\net6.0\ref\polo.dll
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\bin\Debug\net6.0\polo.pdb
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\obj\Debug\net6.0\polo.csproj.AssemblyReference.cache
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\obj\Debug\net6.0\polo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\obj\Debug\net6.0\polo.AssemblyInfoInputs.cache
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\obj\Debug\net6.0\polo.AssemblyInfo.cs
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\obj\Debug\net6.0\polo.csproj.CoreCompileInputs.cache
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\obj\Debug\net6.0\polo.dll
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\obj\Debug\net6.0\ref\polo.dll
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\obj\Debug\net6.0\polo.pdb
+C:\Users\myftr\OneDrive\Skrivebord\My Code\polo_C#\src\obj\Debug\net6.0\polo.genruntimeconfig.cache
