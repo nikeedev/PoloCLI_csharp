@@ -88,7 +88,7 @@ namespace polo
             while (whileterminal) {
                 Console.WriteLine();
                 string commands;
-                Console.Write($"polo - { user }/>  ");
+                Console.Write($"polo - { user }/> ");
                 commands = Console.ReadLine();
                 if (commands == "exit") {
                     Console.WriteLine();
