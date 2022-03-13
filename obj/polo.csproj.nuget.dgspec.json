@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\polo_C#\\polo.csproj": {}
+    "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\PoloCLI_csharp\\polo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\polo_C#\\polo.csproj": {
+    "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\PoloCLI_csharp\\polo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\polo_C#\\polo.csproj",
+        "projectUniqueName": "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\PoloCLI_csharp\\polo.csproj",
         "projectName": "polo",
-        "projectPath": "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\polo_C#\\polo.csproj",
+        "projectPath": "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\PoloCLI_csharp\\polo.csproj",
         "packagesPath": "C:\\Users\\myftr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\polo_C#\\obj\\",
+        "outputPath": "C:\\Users\\myftr\\OneDrive\\Skrivebord\\My Code\\PoloCLI_csharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

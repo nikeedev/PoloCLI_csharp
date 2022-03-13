@@ -3,6 +3,8 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using polo.Codes;
+
 
 namespace polo
 {
@@ -13,7 +15,7 @@ namespace polo
             
             void version() 
             {
-                Console.WriteLine("NikPolo Command Terminal \nv.0.4");
+                Console.WriteLine("Polo CLI C# \nv0.5");
             }
             string user = null;
             string pswrd = null; 
@@ -34,7 +36,7 @@ namespace polo
                 yesno = Console.ReadLine();
                 if ("yes" == yesno || "y" == yesno) {
                     while_user = false;
-                    Console.WriteLine("\nSaved!");
+                    Message.Info("\nSaved!");
                 }
                 else {
                     continue;
@@ -48,7 +50,7 @@ namespace polo
                 yesno2 = Console.ReadLine();
                 if ("yes" == yesno2 || "y" == yesno2) {
                     while_pswrd = false;
-                    Console.Write("\nSaved!");
+                    Message.Info("\nSaved!");
                 }
                 else {
                     continue;
@@ -69,16 +71,16 @@ namespace polo
                         Console.Clear();
                         Console.Clear();
                         while_login = false;
-                        Console.WriteLine("Login Complete!");   
+                        Message.Info("Login Complete!");   
                     }
                     else {
-                        Console.WriteLine("Incorrect password or username");
+                        Message.Error("Incorrect password or username");
                         Console.WriteLine();
                     }   
    
                 }
                 else {
-                    Console.Write("Incorrect username or password");
+                    Message.Error("Incorrect username or password");
                     Console.WriteLine();
                 }
             }
@@ -141,7 +143,7 @@ namespace polo
                 else if (commands == "color white") {
                     Console.ForegroundColor = ConsoleColor.White;
                 }
-                else if (commands == "color") {
+                else if (commands.Contains("color")) {
                     Console.WriteLine("You can choose between these colors:\ncyan,\nyellow,\nwhite,\nred,\ngreen\nand blue!\n To use any of these colors use command color + \"Your color here\" ");
                 }
                 else if (commands == "cls") {
@@ -151,9 +153,7 @@ namespace polo
                     continue;
                 } 
                 else {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("This command or value is invalid. You can list all available commands using 'help' command.");
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Message.Error($"'{commands}' command or/and value is invalid. You can list all available commands using 'help' command. \n");
                 }
             }
         }
